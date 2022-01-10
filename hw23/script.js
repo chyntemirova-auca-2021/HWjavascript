@@ -11,6 +11,6 @@ while ( a !== 0) {
             found = true
         }
     }
-    if (found ) console.log.prompt("yes")
+    if (found ) console.log(prompt("yes"))
  else console.log("no")
 }
