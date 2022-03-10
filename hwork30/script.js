@@ -35,3 +35,11 @@ function run () {
         const resultNode = document.getElementById("myRes")
         resultNode.textContent = result
     }
+    function myPow(){
+        const numberOne = document.querySelector("#input1")
+        const numberTwo = document.querySelector("#input2")
+        let result = Number (numberOne.value) ^ Number(numberTwo.value)
+        const resultNode = document.getElementById("myRes")
+        resultNode.textContent = result
+    }
+
